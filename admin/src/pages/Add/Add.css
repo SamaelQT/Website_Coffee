@@ -1,0 +1,92 @@
+.add {
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 24px;
+    background-color: #fffdfb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  form.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .add-img-upload label {
+    cursor: pointer;
+  }
+  
+  .add-img-upload img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px dashed #d2691e;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #fff5ec;
+    transition: transform 0.2s ease;
+  }
+  
+  .add-img-upload img:hover {
+    transform: scale(1.05);
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #fff;
+    transition: border 0.2s ease;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+    border-color: #d2691e;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .add-category-price {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .add-category,
+  .add-price {
+    flex: 1;
+    min-width: 180px;
+  }
+  
+  .add-btn {
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+  }
+  
+  .add-btn:hover {
+    background-color: #b75516;
+  }
+  

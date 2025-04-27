@@ -1,0 +1,127 @@
+.navbar {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 150px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #49557e;
+  font-style: normal;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar button {
+  background: transparent;
+  font-size: 16px;
+  color: #49557e;
+  border: 1px solid tomato;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar button:hover{
+    background-color: #fff4f2;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.navbar li{
+    cursor: pointer;
+
+}
+
+.navba-search-icon{
+    position: relative;
+}
+
+.navba-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+
+/* Wrapper bao cả avatar và dropdown */
+.navbar-profile-wrapper {
+  position: relative;
+}
+
+/* Avatar + Dropdown */
+.navbar-profile {
+  position: relative;
+}
+
+/* Avatar */
+.navbar-profile > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Dropdown */
+.navbar-profile-dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 180px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 8px 0;
+  list-style: none;
+  display: none;
+  z-index: 100;
+}
+
+/* Show dropdown khi hover vào wrapper */
+.navbar-profile-wrapper:hover .navbar-profile-dropdown {
+  display: block;
+}
+
+/* Dropdown items */
+.navbar-profile-dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.navbar-profile-dropdown li:hover {
+  background-color: #f0f0f0;
+}
+
+.navbar-profile-dropdown img {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-profile-dropdown hr {
+  margin: 6px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}

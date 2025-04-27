@@ -1,0 +1,91 @@
+.place-order {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.place-order-left {
+  flex: 1 1 55%;
+  background-color: #fff8f0;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.place-order-left .title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.place-order-left input {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.multi-fields {
+  display: flex;
+  gap: 16px;
+}
+
+.multi-fields input {
+  flex: 1;
+}
+
+.place-order-right {
+  flex: 1 1 35%;
+}
+
+/* Reuse existing cart-total CSS if available. Else, redefine it: */
+
+.cart-total {
+  background-color: #fdf6ee;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cart-total h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: #333;
+}
+
+.cart-total-detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.cart-total-detail b {
+  font-size: 16px;
+}
+
+.cart-total button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #d2691e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cart-total button:hover {
+  background-color: #b8581a;
+}

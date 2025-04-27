@@ -1,0 +1,36 @@
+.app-download {
+    background-color: #fff4e6;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  }
+  
+  .app-download p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #5a3e2b;
+    margin-bottom: 24px;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .app-download-platforms {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .app-download-platforms img {
+    width: 160px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .app-download-platforms img:hover {
+    transform: scale(1.05);
+  }
+  

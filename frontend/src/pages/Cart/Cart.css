@@ -1,0 +1,146 @@
+.cart {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.cart-items {
+  background-color: #fffdf7;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow-x: auto;
+}
+
+.cart-items-title {
+  display: grid;
+  grid-template-columns: 100px 1fr 80px 80px 100px 60px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 0;
+  gap: 12px;
+}
+
+.cart-items-item {
+  font-weight: normal;
+  border-top: 1px solid #ddd;
+  padding: 16px 0;
+}
+
+.cart-items-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cart-items-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.cart-items-item p:last-child {
+  color: #d9534f;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+.cart-items-item p:last-child:hover {
+  color: #c9302c;
+}
+.cart-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.cart-total {
+  flex: 1 1 300px;
+  background-color: #fff8f0;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cart-total h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: #333;
+}
+
+.cart-total-detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.cart-total-detail b {
+  font-size: 16px;
+}
+
+.cart-total button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #d2691e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cart-total button:hover {
+  background-color: #b8581a;
+}
+
+.cart-promocode {
+  flex: 1 1 300px;
+  background-color: #fdf6ee;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cart-promocode p {
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.cart-promocode-input {
+  display: flex;
+  gap: 8px;
+}
+
+.cart-promocode-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.cart-promocode-input button {
+  padding: 10px 16px;
+  background-color: #d2691e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cart-promocode-input button:hover {
+  background-color: #b8581a;
+}
